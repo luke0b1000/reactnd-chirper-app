@@ -5,6 +5,7 @@ import {
   _saveTweet,
 } from './_DATA.js'
 
+// QUESTION: What does the return statement look like???
 export function getInitialData () {
   return Promise.all([
     _getUsers(),
